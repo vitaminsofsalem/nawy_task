@@ -1,0 +1,135 @@
+paths:
+  /apartments:
+    get:
+      summary: List all apartments in the database
+      description: Returns 10 paginated apartments from the database to be listed on the front page
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: a867bc01-c6b3-4ce7-bfc8-c1e5e1af5da5
+                  title:
+                    type: string
+                    example: 150m2 apartment for sale in new cairo
+                  location:
+                    type: string
+                    example: new cairo
+                  publishDate:
+                    type: Date
+                    example: 12/2/2023
+                  Price:
+                    type: integer
+                    example: 3_700_000
+                  mainImg:
+                    type: string
+                    example: https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                         
+  /apartment/{id}:
+    get:
+      summary: Return full apartment details for display
+      description: Endpoint takes in an apartment Id and returns an full details of that apartment for display
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    example: a867bc01-c6b3-4ce7-bfc8-c1e5e1af5da5
+                  title:
+                    type: string
+                    example: 150m2 apartment for sale in new cairo
+                  location:
+                    type: string
+                    example: new cairo
+                  publishDate:
+                    type: Date
+                    example: 12/2/2023
+                  Price:
+                    type: integer
+                    example: 3_700_000
+                  bedrooms:
+                    type: integer
+                    example: 3
+                  bathrooms:
+                    type: integer
+                    example: 2
+                  area:
+                    type: integer
+                    example: 150
+                  furnished:
+                    type: boolean
+                    example: yes/no
+                  mainImg:
+                    type: string
+                    example: https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  extraImgs:
+                    type: array
+                    items: object
+                  description:
+                    type: string
+                    example: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+                            
+        "404":
+          description: Bad response. Apartment not found
+          content:
+            application/json:
+              schema:
+                type: object
+                      
+  /apartment/add/{id}:
+    post:
+      summary: Create an ad for an apartment
+      description: Adds an apartment to the database to be listed
+      responses:
+        "500":
+          description: Internal server error
+        "200":
+          description: Successful response. Object added to the database
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  title:
+                    type: string
+                    example: 150m2 apartment for sale in new cairo
+                  location:
+                    type: string
+                    example: new cairo
+                  publishDate:
+                    type: Date
+                    example: 12/2/2023
+                  Price:
+                    type: integer
+                    example: 3_700_000
+                  bedrooms:
+                    type: integer
+                    example: 3
+                  bathrooms:
+                    type: integer
+                    example: 2
+                  area:
+                    type: integer
+                    example: 150
+                  furnished:
+                    type: boolean
+                    example: yes/no
+                  mainImg:
+                    type: string
+                    example: https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                  extraImgs:
+                    type: array
+                    items: object
+                  description:
+                    type: string
+                    example: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
