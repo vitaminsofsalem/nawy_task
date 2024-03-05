@@ -1,0 +1,173 @@
+[{
+  "_id": {
+    "$oid": "622fef5a02e0f0d1c86f2870"
+  },
+  "title": "Modern Apartment in Downtown",
+  "location": "City Center, New York",
+  "publishDate": {
+    "$date": "2024-03-02T10:00:00.000Z"
+  },
+  "price": 800000,
+  "mainImg": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "extraImgs": [
+    "https://example.com/apartment1-img1.jpg",
+    "https://example.com/apartment1-img2.jpg"
+  ],
+  "description": "Discover urban living at its finest in this sleek and stylish apartment. Situated in the heart of the city, this apartment offers convenience, comfort, and contemporary design.",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "area": 1500,
+  "furnished": true
+},
+{
+  "_id": {
+    "$oid": "622fef5a02e0f0d1c86f2871"
+  },
+  "title": "Charming Cottage in the Countryside",
+  "location": "Rural Retreat, Vermont",
+  "publishDate": {
+    "$date": "2024-03-01T09:00:00.000Z"
+  },
+  "price": 500000,
+  "mainImg": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "extraImgs": [
+    "https://example.com/cottage-img1.jpg",
+    "https://example.com/cottage-img2.jpg",
+    "https://example.com/cottage-img3.jpg"
+  ],
+  "description": "Escape the hustle and bustle of city life in this picturesque cottage nestled in the tranquil countryside. With its rustic charm and serene surroundings, this cottage offers the perfect getaway.",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "area": 2000,
+  "furnished": false
+},
+{
+  "_id": {
+    "$oid": "622fef5a02e0f0d1c86f2872"
+  },
+  "title": "Luxurious Penthouse with Skyline Views",
+  "location": "Metropolis Tower, Chicago",
+  "publishDate": {
+    "$date": "2024-02-29T12:00:00.000Z"
+  },
+  "price": 2500000,
+  "mainImg": "https://images.pexels.com/photos/129494/pexels-photo-129494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "extraImgs": [
+    "https://example.com/penthouse-img1.jpg",
+    "https://example.com/penthouse-img2.jpg",
+    "https://example.com/penthouse-img3.jpg"
+  ],
+  "description": "Indulge in luxury living with panoramic views of the city skyline in this exquisite penthouse. With its sophisticated design, premium amenities, and expansive living spaces, this penthouse epitomizes urban elegance.",
+  "bedrooms": 5,
+  "bathrooms": 4,
+  "area": 4000,
+  "furnished": true
+},
+{
+  "_id": {
+    "$oid": "622fef5a02e0f0d1c86f2873"
+  },
+  "title": "Seaside Retreat with Private Beach Access",
+  "location": "Oceanfront Estates, Florida",
+  "publishDate": {
+    "$date": "2024-03-01T15:00:00.000Z"
+  },
+  "price": 3500000,
+  "mainImg": "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "extraImgs": [
+    "https://example.com/retreat-img1.jpg",
+    "https://example.com/retreat-img2.jpg",
+    "https://example.com/retreat-img3.jpg"
+  ],
+  "description": "Escape to paradise in this luxurious seaside retreat boasting private beach access and stunning ocean views. With its lavish amenities and tranquil surroundings, this retreat offers the ultimate coastal living experience.",
+  "bedrooms": 6,
+  "bathrooms": 5,
+  "area": 6000,
+  "furnished": true
+},
+{
+  "_id": {
+    "$oid": "622fef5a02e0f0d1c86f2874"
+  },
+  "title": "Cozy Townhouse in Historic District",
+  "location": "Heritage Square, Boston",
+  "publishDate": {
+    "$date": "2024-02-29T11:00:00.000Z"
+  },
+  "price": 650000,
+  "mainImg": "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "extraImgs": [
+    "https://example.com/townhouse-img1.jpg",
+    "https://example.com/townhouse-img2.jpg"
+  ],
+  "description": "Experience historic charm and modern comfort in this cozy townhouse nestled in the heart of the city's historic district. With its quaint streets and cultural attractions just steps away, this townhouse offers the perfect blend of old-world charm and contemporary living.",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "area": 1800,
+  "furnished": false
+},
+{
+  "_id": {
+    "$oid": "622fef5a02e0f0d1c86f2875"
+  },
+  "title": "Contemporary Loft with Industrial Charm",
+  "location": "Warehouse District, San Francisco",
+  "publishDate": {
+    "$date": "2024-03-02T09:00:00.000Z"
+  },
+  "price": 1200000,
+  "mainImg": "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "extraImgs": [
+    "https://example.com/loft-img1.jpg",
+    "https://example.com/loft-img2.jpg",
+    "https://example.com/loft-img3.jpg"
+  ],
+  "description": "Embrace modern urban living in this stylish loft with industrial charm. Located in the vibrant warehouse district, this loft features open-concept living spaces, high ceilings, and exposed brick walls, creating a contemporary yet inviting atmosphere.",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "area": 1600,
+  "furnished": true
+},
+{
+  "_id": {
+    "$oid": "622fef5a02e0f0d1c86f2876"
+  },
+  "title": "Mountain Retreat with Spectacular Views",
+  "location": "Alpine Haven, Colorado",
+  "publishDate": {
+    "$date": "2024-02-28T14:00:00.000Z"
+  },
+  "price": 1800000,
+  "mainImg": "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "extraImgs": [
+    "https://example.com/mountain-img1.jpg",
+    "https://example.com/mountain-img2.jpg"
+  ],
+  "description": "Discover serenity in this mountain retreat surrounded by majestic peaks and pristine wilderness. With its breathtaking views and outdoor recreation opportunities, this retreat offers the perfect escape for nature enthusiasts and outdoor adventurers alike.",
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "area": 2500,
+  "furnished": true
+},
+{
+  "_id": {
+    "$oid": "622fef5a02e0f0d1c86f2877"
+  },
+  "title": "Elegant Villa in Mediterranean Paradise",
+  "location": "Costa del Sol, Spain",
+  "publishDate": {
+    "$date": "2024-03-01T10:00:00.000Z"
+  },
+  "price": 2200000,
+  "mainImg": "https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "extraImgs": [
+    "https://example.com/villa-img1.jpg",
+    "https://example.com/villa-img2.jpg",
+    "https://example.com/villa-img3.jpg"
+  ],
+  "description": "Live in luxury in this elegant villa nestled in the breathtaking beauty of the Mediterranean coast. With its expansive gardens, private pool, and stunning sea views, this villa offers the epitome of Mediterranean lifestyle.",
+  "bedrooms": 5,
+  "bathrooms": 4,
+  "area": 3800,
+  "furnished": true
+}]
