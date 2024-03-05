@@ -86,7 +86,7 @@ paths:
               schema:
                 type: object
                       
-  /apartment/add/{id}:
+  /apartment/add:
     post:
       summary: Create an ad for an apartment
       description: Adds an apartment to the database to be listed

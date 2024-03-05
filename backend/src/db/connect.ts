@@ -1,5 +1,6 @@
 import { connect, disconnect } from "mongoose";
 
+console.log("URI", process.env.MONGODB_URI);
 export const connectDB = () => {
   return new Promise(async (resolve, reject) => {
     try {

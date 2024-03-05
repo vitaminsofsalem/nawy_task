@@ -1,20 +1,16 @@
-import { Metadata } from 'next';
+'use client';
 
-import './globals.css';
+import React from 'react';
 
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
-
-export const metadata: Metadata = {
-  title: `TypeScript starter for Next.js by João Pedro Schmitz`,
-  description: `TypeScript starter for Next.js that includes all you need to build amazing apps`,
-};
+import Navbar from './components/Navbar';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html style={{ backgroundColor: '#F8E8EE', height: '100%' }} lang="en">
+      <body style={{ height: '100%' }}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

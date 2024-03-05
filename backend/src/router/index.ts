@@ -1,8 +1,8 @@
 import { Router } from "express";
-import helloRouter from "./hello-router";
+import apartments from "./apartments";
 
 const appRouter = Router();
 
-appRouter.use("/hello", helloRouter);
+appRouter.use("/", apartments);
 
 export default appRouter;
